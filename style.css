@@ -1,44 +1,44 @@
-body {
-  margin:0;
-}
-a {
-  color: black;
-  text-decoration: none;
-}
-h1 {
-  font-size: 45px;
-  text-align: center;
-  border-bottom:1px solid gray;
-  margin: 0;
-  padding: 30px;
-}
-#grid ol {
-  border-right:1px solid gray;
-  width:120px;
-  margin:0;
-  padding:35px;
-}
-#grid{
-  display: grid;
-  grid-template-columns: 150px 1fr;
-}
-#본문{
-  padding-top:10px;
-  padding-left:50px;
-}
-@media (max-width:970px){
-  img {
-    width:190px;
+  body {
+    margin:0;
   }
-}
-@media (max-width:800px) {
-  #grid{
-    display: block;
+  a {
+    color: black;
+    text-decoration: none;
   }
-  h1 {
-    border-bottom:none;
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin: 0;
+      padding: 30px;
   }
   #grid ol {
-    border-right:none;
+    border-right:1px solid gray;
+    width:120px;
+    margin:0;
+    padding:35px;
   }
-}
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #본문{
+    padding-top:10px;
+    padding-left:50px;
+  }
+  @media (max-width:970px){
+    img {
+      width:190px;
+    }
+  }
+  @media (max-width:800px) {
+    #grid{
+      display: block;
+    }
+    h1 {
+      border-bottom:none;
+    }
+    #grid ol {
+      border-right:none;
+    }
+  }

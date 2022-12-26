@@ -61,6 +61,36 @@
     <br> <a href="https://in.naver.com/hyunsikdang" target="_blank" title="현식당 네이버 인플루언서"style="color:blue;text-decoration:underline">in.naver.com/hyunsikdang</a>
   </div>
 </div>
+
+  <input type="button" value="night🌛" onclick="
+  var target = document.querySelector('body');
+  if(this.value === 'night🌛'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value = 'day🌞';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0
+    while(i < alist.length) {
+        alist[i].style.color = 'white';
+        i = i+1;
+    } 
+
+  } else {
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value = 'night🌛';
+
+    var alist = document.querySelectorAll('a');
+    var i = 0
+    while(i < alist.length) {
+        alist[i].style.color = 'black';
+        i = i+1;
+    }
+
+  }
+  ">
+
 </body>
 <p>
   <!--Start of Tawk.to Script-->

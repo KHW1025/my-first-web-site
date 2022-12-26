@@ -83,6 +83,35 @@
     <br> <a href="https://homecuisine.co.kr/hc25/47959" target="_blank" title="홈퀴진 이윤정"style="color:blue;text-decoration:underline">https://homecuisine.co.kr/hc25/47959 </a>
   </div>
 </div>
+<br>
+<input type="button" value="night🌛" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night🌛'){
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value = 'day🌞';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0
+  while(i < alist.length) {
+      alist[i].style.color = 'white';
+      i = i+1;
+  } 
+
+} else {
+  target.style.backgroundColor='white';
+  target.style.color='black';
+  this.value = 'night🌛';
+
+  var alist = document.querySelectorAll('a');
+  var i = 0
+  while(i < alist.length) {
+      alist[i].style.color = 'black';
+      i = i+1;
+  }
+
+}
+">
 <br><div id="disqus_thread"></div>
 <script>
     /**
